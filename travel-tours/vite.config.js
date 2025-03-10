@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
-import preact from '@preact/preset-vite'
 
-// https://vite.dev/config/
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
-  plugins: [preact()],
+  plugins: [
+    tailwindcss(),
+  ],
 })
